@@ -83,6 +83,6 @@ Aqui estão alguns registros da interface interativa da API em funcionamento:
 
 ![Created Order Interface](assets/created_order_api.png)
 
-![Result Created Order Interface](assets/result_created_order_api.png)
+![Result Created Order Interface](assets/result_create_order_api.png)
 
 ![List Order API](assets/show_result_api.png)
