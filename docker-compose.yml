@@ -1,0 +1,13 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      # Mantemos a URL padrão do SQLite apontando para a pasta /app
+      - DATABASE_URL=sqlite:////app/database.db
+      - SECRET_KEY=UMA_CHAVE_SUPER_SEGURA_PARA_O_DOCKER
+    volumes:
+      # O ponto (.) indica a pasta atual do seu projeto no seu PC.
+      # Isso espelha o arquivo database.db gerado no container direto na sua pasta local!
+      - .:/app

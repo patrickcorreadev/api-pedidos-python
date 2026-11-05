@@ -1,0 +1,33 @@
+# Ambiente Virtual
+venv/
+.venv/
+env/
+
+# Caches do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Banco de Dados Local (SQLite)
+*.db
+*.db-journal
+*.sqlite3
+
+# Arquivos de Configuração do Editor/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Variáveis de Ambiente Ocultas (Segurança)
+.env
